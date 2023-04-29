@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cancer Prediction App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Liver <span>Cancer</span> Prediction</h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <label for="age">Age:</label>
+          <input type="text" id="age" />
+        </div>
+        <div>
+          <label for="tBili">Total Bilirubin:</label>
+          <input type="text" id="tBili" />
+        </div>
+        <div>
+          <label for="dBili">Direct Bilirubin:</label>
+          <input type="text" id="dBili" />
+        </div>
+
+        <div>
+          <label for="alkalinePhos">Alkaline Phosphotase:</label>
+          <input type="text" id="alkalinePhos" />
+        </div>
+
+        <div>
+          <label for="alkalineAmino">Alkaline Aminotransferase:</label>
+          <input type="text" id="alkalineAmino" />
+        </div>
+
+        <div>
+          <label for="asperate">Asperate Aminotransferase:</label>
+          <input type="text" id="asperate" />
+        </div>
+
+        <div>
+          <label for="protein">Total Protein:</label>
+          <input type="text" id="protein" />
+        </div>
+
+        <div>
+          <label for="albumin">Albumin:</label>
+          <input type="text" id="albumin" />
+        </div>
+
+        <div>
+          <label for="albAndGlob">Albumin and Globulin Ratio:</label>
+          <input type="text" id="albAndGlob" />
+        </div>
+
+        <button class="predict" onclick="saveFile()">Predict</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
